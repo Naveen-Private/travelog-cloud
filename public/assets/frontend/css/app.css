@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(http://db.onlinewebfonts.com/c/cc44a2fd60ec971785c2e0fdf31f2bda?family=Proxima+Nova+Rg);
+body, html {
+  font-family: "Proxima Nova Rg";
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #5a5a5a; }
+
+a {
+  text-decoration: none;
+  color: #ccc; 
+}
+
+/*Common styles*/
+
+.colorWhite{
+  color: white !important;
+}
+
+.themeColor{
+  color:#ff4a00 !important;
+}
+
+.themeFont{
+  font-family: "Proxima Nova Rg" !important;
+}
+
+.imgResponsive{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*Margins*/
+.marBot0{
+  margin-bottom: 0px !important;
+}
+
+.marTop20{
+  margin-top: 20px;
+}
+
+/*Width*/
+
+.width100per{
+  width:100%;
+}
+
+/*Width*/
+
+/*Fonts*/
+
+.fontBold{
+  font-weight: bold;
+}
+
+/*Fonts*/
+
+
+ul, ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0; }
+
+/*Menu Style*/
+#tl-menu{
+  background-color: #000 !important;
+  border-radius: 0px;
+  border: none;
+  margin-bottom: 0px;
+}
+
+/* Home Style */
+.container .flashSales div h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Proxima Nova Rg";
+}
+
+.flashSalesDropDown{
+  list-style-type: none;
+  position: relative;
+  text-align: center;
+}
+
+ul.flashSalesDropDown li{
+  padding:10px;
+}
+
+.fiterOption{
+  cursor: pointer;
+}
+
+div.pImage{
+  height: 306px;
+  padding-right: 0px;
+}
+
+div.pImageInfo{
+  height: 306px;
+  background-color: white;
+  right: 15px;
+  border: 1px 1px 1px 0px solid balck;
+}
+
+.productInfo .productTimelySale{
+  width: 70%;
+  background-color: #000;
+  height: 40px;
+  margin: auto;
+}
+
+.productInfo .productTimelySale p{
+  color: white;
+  font-family: "Proxima Nova Rg";
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+/*.productInfo .productDetails .productDetailsTitle p, .productInfo .productDetails .productDetailsInfo p{
+  font-family: "Proxima Nova Rg";
+}*/
+
+.productInfo .productDiscount{
+  position: relative;
+  top:80px;
+}
+
+span.beforeDiscount{
+  text-decoration: line-through;
+}
+
+
+/** FOOTER CSS **/
+.footer-basic-centered {
+  background-color: #1d1d1d;
+  color:white;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  padding: 25px 0 70px; 
+  position: relative;
+  bottom: 0px;
+  margin-top:20px;
+}
+
+.inspirational i,.discounts i,.expertHelp i {
+  margin-right: 10px;
+  color:white;
+}
+
+.inspirational h2,.discounts h2,.expertHelp h2{
+  margin-bottom: 5px;
+  font-family: "Proxima Nova Rg";
+  font-size:1.4em;
+} 
+
+.inspirational p,.discounts p,.expertHelp p{
+  font-size: 12px;
+  color:#666;
+  font-family: "Proxima Nova Rg";
+}
+
+.payment p, .copyRight p{
+  font-size: 12px;
+  color:#666;
+  font-family: "Proxima Nova Rg";
+}
+
+.contentSection ul li, .termsHelp ul li, .needHelp ul li{
+  font-size: 12px;
+  color:#666;
+  font-family: "Proxima Nova Rg";
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.payment p i, .copyRight p i{
+  color:#666;
+  font-size: 12px;
+}
+
+.footerBorderBottom{
+  padding-bottom: 20px;
+  border-bottom:1px solid #000;
+  margin-top: 15px;
+}
+
+.socialMedia i{
+  font-size: 35px;
+  padding-left: 30px;
+  color: #666;
+}
+
+/*# sourceMappingURL=app.css.map */

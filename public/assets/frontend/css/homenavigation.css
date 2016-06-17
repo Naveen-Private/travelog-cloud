@@ -1,0 +1,37 @@
+/*Header*/
+
+.logowidthHeight {
+    height: 65px;
+    width: 145px;
+}
+
+.imgresponsive {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.navigaitonMenu { 
+    position: relative;
+    top:15px;
+}
+
+li.mywishlistIcon{
+    position: relative;
+    left: 75px;
+    top: -20px;
+}
+
+li.mywishlistIcon a i,li.myProfileIcon a i{
+    color: white;
+    font-size: 18px;
+}
+
+li.myProfileIcon{
+    position: relative;
+    left: 75px;
+    top: -20px;
+}
+
+
+
+
